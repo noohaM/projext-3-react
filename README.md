@@ -25,19 +25,16 @@ Before starting this project server, make sure to run `json-server --watch ./db.
 - You may use separate files and reuse and import them in others, for example
 
       // helper.js
-
       export class ExactClassName { ... }
 
       // any.js
-
       import { ExactClassName } from './helper';
 
       // OR
-
+      // helper.js
       export default class ExactClassName { ... }
 
       // any.js
-
       import AnyNameYouChoose from './helper';
 
 
