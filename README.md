@@ -42,7 +42,7 @@ Before starting this project server, make sure to run `json-server --watch ./db.
 
 - React router will do the routes, so you don't have to worry about them
 
-- It's better to use ReactStrap components (check their [https://reactstra.github.io](website)).
+- It's better to use ReactStrap components (check their [https://reactstrap.github.io](website)).
 
 - When you load data for the first time, you may do it inside the `componentDidMount()` (see Users CRUD component).
 
