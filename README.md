@@ -24,24 +24,22 @@ Before starting this project server, make sure to run `json-server --watch ./db.
 
 - You may use separate files and reuse and import them in others, for example
 
-`
-// helper.js
+      // helper.js
 
-export class ExactClassName { ... }
+      export class ExactClassName { ... }
 
-// any.js
+      // any.js
 
-import { ExactClassName } from './helper';
+      import { ExactClassName } from './helper';
 
-// OR
+      // OR
 
-export default class ExactClassName { ... }
+      export default class ExactClassName { ... }
 
-// any.js
+      // any.js
 
-import AnyNameYouChoose from './helper';
+      import AnyNameYouChoose from './helper';
 
-`
 
 - Don't modify `public/index.html` file, only modify src/MainPage.jsx, src/dashboard/*.jsx.
 
