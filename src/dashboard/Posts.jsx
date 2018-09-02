@@ -3,9 +3,23 @@ import React, { Component } from 'react';
 class Posts extends Component {
   render() {
     return (
-      <div className="row">
-        Posts CRUD
-      </div>
+      
+        <form>
+          <div>
+           <label>
+             title
+           </label>
+           <inpuut type="text"/>
+           </div>
+
+           <div>
+             <label >body</label>
+             <input type="text"/>
+           </div>
+
+          <button>post</button>
+          <button>cancle</button>
+      </form>
     );
   }
 }

@@ -4,7 +4,22 @@ class Categories extends Component {
   render() {
     return (
       <div className="row">
-        Categories CRUD
+         <form>
+          <div>
+           <label>
+             title
+           </label>
+           <inpuut type="text"/>
+           </div>
+
+           <div>
+             <label >body</label>
+             <input type="text"/>
+           </div>
+
+          <button>post</button>
+          <button>cancle</button>
+      </form>
       </div>
     );
   }
