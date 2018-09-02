@@ -55,3 +55,4 @@ Before starting this project server, make sure to run `json-server --watch ./db.
 - On the main page you should be able to write new posts, and edit/delete existing ones.
 
 - When clicking on a Category it should display only the posts with that category, otherwise will show all posts when you click All Categories.# projext-3-react
+# projext-3-react
